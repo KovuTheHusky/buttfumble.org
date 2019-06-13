@@ -28,9 +28,5 @@ html, body {
   line-height: 0;
   text-align: center;
   display: inline-block;
-  width: 26px;
-}
-
-.list-group-item span.medal {
-  font-size: 26px;
+  width: 24px;
 }
