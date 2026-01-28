@@ -1,0 +1,86 @@
+year: 2021
+champion:
+  team: "Smoking Bullets"
+  message: "Congratulations to the Smoking Bullets!"
+
+timeline:
+  - type: playoffs
+    title: "Playoffs"
+    date: "January 4, 2022"
+    summary: "The Smoking Bullets won over the Cloudsdale Wonderbolts, 89.64 to 84.50."
+    teams:
+      - name: "Smoking Bullets"
+        image: "assets/images/smoking-bullets.webp"
+        rank: "🥇"
+      - name: "Cloudsdale Wonderbolts"
+        image: "assets/images/wonderbolts.webp"
+        rank: "🥈"
+      - name: "New York Huskies"
+        image: "assets/images/huskies.webp"
+        rank: "🥉"
+      - name: "Jerusalem Jewsorcery"
+        image: "assets/images/jewsorcery.webp"
+        rank: "4"
+      - name: "New York Pitbulls"
+        image: "assets/images/pitbulls.webp"
+        rank: "5"
+      - name: "Gurlzrool"
+        image: "assets/images/gurlzrool.webp"
+        rank: "6"
+      - name: "New York Empire"
+        image: "assets/images/empire.webp"
+        rank: "7"
+      - name: "Tilkravens"
+        image: "assets/images/tilkravens.webp"
+        rank: "8"
+
+  - type: standings
+    title: "Standings"
+    date: "December 21, 2021"
+    summary: "The Smoking Bullets finished with a 9-6 record. The New York Huskies landed in third from sixth last week, swapping spots with the New York Empire."
+    teams:
+      - name: "Smoking Bullets"
+        image: "assets/images/smoking-bullets.webp"
+        rank: "1"
+      - name: "Cloudsdale Wonderbolts"
+        image: "assets/images/wonderbolts.webp"
+        rank: "2"
+      - name: "New York Huskies"
+        image: "assets/images/huskies.webp"
+        rank: "3"
+      - name: "Jerusalem Jewsorcery"
+        image: "assets/images/jewsorcery.webp"
+        rank: "4"
+      - name: "New York Pitbulls"
+        image: "assets/images/pitbulls.webp"
+        rank: "5"
+      - name: "New York Empire"
+        image: "assets/images/empire.webp"
+        rank: "6"
+      - name: "Gurlzrool"
+        image: "assets/images/gurlzrool.webp"
+        rank: "7"
+      - name: "Tilkravens"
+        image: "assets/images/tilkravens.webp"
+        rank: "8"
+
+  - type: draft
+    date: "September 5, 2021"
+    summary: "The 2021 draft took place with the Jerusalem Jewsorcery picking first. (The draft order was randomized this year.) Travis Kelce (TE) was chosen as the first pick."
+    link: "https://fantasy.nfl.com/league/2020807/history/2021/draftresults"
+
+  - type: transaction
+    action: added
+    team: "Gurlzrool"
+    owner: "Bill"
+    date: "August 29, 2018"
+    image: "assets/images/gurlzrool.webp"
+    summary: "Owner Bill signs the Gurlzrool up for the Buttfumble league at the start of the 2021 season."
+
+  - type: transaction
+    action: removed
+    team: "Cleveland Steamers"
+    owner: "Chris"
+    date: "June 9, 2021"
+    image: "assets/images/steamers.webp"
+    summary: "Owner Chris retires the Steamers from the Buttfumble league at the start of the 2021 season."

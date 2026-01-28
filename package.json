@@ -1,0 +1,14 @@
+{
+  "name": "buttfumble.org",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@shopify/prettier-plugin-liquid": "^1.10.0",
+    "@types/bun": "latest",
+    "prettier": "^3.8.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

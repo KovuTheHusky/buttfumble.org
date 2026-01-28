@@ -1,0 +1,83 @@
+year: 2013
+champion:
+  team: "Jerusalem Jewsorcery"
+  message: "Congratulations to the Jerusalem Jewsorcery!"
+
+timeline:
+  - type: playoffs
+    title: "Playoffs"
+    date: "December 24, 2013"
+    summary: "The Jerusalem Jewsorcery won over the Pittsburgh Pitbulls, 131.60 to 118.58."
+    teams:
+      - name: "Jerusalem Jewsorcery"
+        image: "assets/images/jewsorcery.webp"
+        rank: "🥇"
+      - name: "Pittsburgh Pitbulls"
+        image: "assets/images/pitbulls.webp"
+        rank: "🥈"
+      - name: "New York Huskies"
+        image: "assets/images/huskies.webp"
+        rank: "🥉"
+      - name: "New York Empire"
+        image: "assets/images/empire.webp"
+        rank: "4"
+
+  - type: standings
+    title: "Standings"
+    date: "December 10, 2013"
+    summary: "The Jerusalem Jewsorcery finished with a 10-4 record, ending the season with a 3 week winning streak."
+    teams:
+      - name: "Jerusalem Jewsorcery"
+        image: "assets/images/jewsorcery.webp"
+        rank: "1"
+      - name: "Pittsburgh Pitbulls"
+        image: "assets/images/pitbulls.webp"
+        rank: "2"
+      - name: "New York Empire"
+        image: "assets/images/empire.webp"
+        rank: "3"
+      - name: "New York Huskies"
+        image: "assets/images/huskies.webp"
+        rank: "4"
+
+  - type: draft
+    date: "September 7, 2013"
+    summary: "The 2013 draft took place with the Jerusalem Jewsorcery picking first. Marshawn Lynch (RB) was chosen as the first pick."
+    link: "https://fantasy.nfl.com/league/2020807/history/2013/draftresults"
+
+  - type: transaction
+    action: added
+    team: "Jerusalem Jewsorcery"
+    owner: "Lance"
+    date: "September 3, 2013"
+    image: "assets/images/jewsorcery.webp"
+    summary: "Owner Lance signs the Jewsorcery up for the Buttfumble league at the start of the 2013 season."
+
+  - type: transaction
+    action: added
+    team: "Pittsburgh Pitbulls"
+    owner: "Cheryl"
+    date: "September 3, 2013"
+    image: "assets/images/pitbulls.webp"
+    summary: "Owner Cheryl signs the Pitbulls up for the Buttfumble league at the start of the 2013 season."
+
+  - type: transaction
+    action: added
+    team: "New York Empire"
+    owner: "Joe"
+    date: "September 3, 2013"
+    image: "assets/images/empire.webp"
+    summary: "Owner Joe signs the Empire up for the Buttfumble league at the start of the 2013 season."
+
+  - type: transaction
+    action: added
+    team: "New York Huskies"
+    owner: "Kevin"
+    date: "September 3, 2013"
+    image: "assets/images/huskies.webp"
+    summary: "Owner Kevin signs the Huskies up for the Buttfumble league at the start of the 2013 season."
+
+  - type: record
+    title: "Buttfumble"
+    date: "September 3, 2013"
+    summary: "The Buttfumble league was created on this day!"

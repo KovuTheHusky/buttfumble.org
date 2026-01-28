@@ -1,0 +1,114 @@
+year: 2024
+champion:
+  team: "Smoking Bullets"
+  message: "Congratulations to the Smoking Bullets!"
+
+timeline:
+  - type: playoffs
+    title: "Playoffs"
+    date: "December 31, 2024"
+    summary: "The New York Empire won over the New York Pitbulls, 142.16 to 103.78."
+    teams:
+      - name: "Smoking Bullets"
+        image: "assets/images/smoking-bullets.webp"
+        rank: "🥇"
+      - name: "Cloudsdale Wonderbolts"
+        image: "assets/images/wonderbolts.webp"
+        rank: "🥈"
+      - name: "Jerusalem Jewsorcery"
+        image: "assets/images/jewsorcery.webp"
+        rank: "🥉"
+      - name: "New York Empire"
+        image: "assets/images/empire.webp"
+        rank: "4"
+      - name: "Manhandlers"
+        image: "assets/images/manhandlers.webp"
+        rank: "5"
+      - name: "New York Huskies"
+        image: "assets/images/huskies.webp"
+        rank: "6"
+      - name: "New York Pitbulls"
+        image: "assets/images/pitbulls.webp"
+        rank: "7"
+      - name: "Gotta Catch Em All"
+        image: "assets/images/gotta-catch-em-all.webp"
+        rank: "8"
+      - name: "Tilkravens"
+        image: "assets/images/tilkravens.webp"
+        rank: "9"
+      - name: "Najees Nuts"
+        image: "assets/images/najees-nuts.webp"
+        rank: "10"
+
+  - type: standings
+    title: "Standings"
+    date: "December 17, 2024"
+    summary: "The Cloudsdale Wonderbolts finished with an 12-3 record. The Tilkravens finished their season with another five loss streak, landing them in ninth and out of the playoffs."
+    teams:
+      - name: "Cloudsdale Wonderbolts"
+        image: "assets/images/wonderbolts.webp"
+        rank: "1"
+      - name: "Jerusalem Jewsorcery"
+        image: "assets/images/jewsorcery.webp"
+        rank: "2"
+      - name: "Smoking Bullets"
+        image: "assets/images/smoking-bullets.webp"
+        rank: "3"
+      - name: "New York Empire"
+        image: "assets/images/empire.webp"
+        rank: "4"
+      - name: "Gotta Catch Em All"
+        image: "assets/images/gotta-catch-em-all.webp"
+        rank: "5"
+      - name: "New York Pitbulls"
+        image: "assets/images/pitbulls.webp"
+        rank: "6"
+      - name: "New York Huskies"
+        image: "assets/images/huskies.webp"
+        rank: "7"
+      - name: "Manhandlers"
+        image: "assets/images/manhandlers.webp"
+        rank: "8"
+      - name: "Tilkravens"
+        image: "assets/images/tilkravens.webp"
+        rank: "9"
+      - name: "Najees Nuts"
+        image: "assets/images/najees-nuts.webp"
+        rank: "10"
+
+  - type: draft
+    date: "August 18, 2024"
+    summary: "The 2024 draft took place with the Manhandlers picking first. Tyreek Hill (WR) was chosen as the first pick."
+    link: "https://fantasy.nfl.com/league/2020807/history/2024/draftresults"
+
+  - type: transaction
+    action: added
+    team: "Najees Nuts"
+    owner: "Chris"
+    date: "August 2, 2024"
+    image: "assets/images/najees-nuts.webp"
+    summary: "Owner Chris signs the Najees Nuts up for the Buttfumble league at the start of the 2024 season."
+
+  - type: transaction
+    action: added
+    team: "Gotta Catch Em All"
+    owner: "Dakota"
+    date: "August 2, 2024"
+    image: "assets/images/gotta-catch-em-all.webp"
+    summary: "Owner Dakota signs the Gotta Catch Em All up for the Buttfumble league at the start of the 2024 season."
+
+  - type: transaction
+    action: added
+    team: "Manhandlers"
+    owner: "Matthew"
+    date: "August 2, 2024"
+    image: "assets/images/manhandlers.webp"
+    summary: "Owner Matthew signs the Manhandlers up for the Buttfumble league at the start of the 2024 season."
+
+  - type: transaction
+    action: removed
+    team: "Gurlzrool"
+    owner: "Bill"
+    date: "August 2, 2024"
+    image: "assets/images/gurlzrool.webp"
+    summary: "Owner Bill retires the Gurlzrool from the Buttfumble league at the start of the 2024 season."

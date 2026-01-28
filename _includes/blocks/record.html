@@ -1,0 +1,10 @@
+<div class="timeline-block">
+  <div class="icon bg-primary"> {% if include.item.title == "Sanchez" %} <i class="fas fa-toilet fa-inverse fa-fw"></i> {% elsif include.item.type == "record" %} <i class="fas fa-star fa-inverse fa-fw"></i> {% else %} <i class="fas fa-football-ball fa-inverse fa-fw"></i> {% endif %} </div>
+  <div class="card col-10 col-lg-11 col-xl-5 border-primary bg-primary">
+    <div class="card-body">
+      <h2 class="card-title font-weight-bold text-white">{{ include.item.title }}</h2>
+      <h3 class="timeline-date text-primary">{{ include.item.date }}</h3>
+      <p class="card-text text-light text-justify">{{ include.item.summary }}</p> {% if include.item.link %} <a class="btn btn-light" href="{{ include.item.link }}">View Schedule</a> {% endif %}
+    </div>
+  </div>
+</div>

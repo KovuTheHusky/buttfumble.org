@@ -1,0 +1,91 @@
+year: 2018
+champion:
+  team: "Cloudsdale Wonderbolts"
+  message: "Congratulations to the Cloudsdale Wonderbolts!"
+
+timeline:
+  - type: playoffs
+    title: "Playoffs"
+    date: "December 25, 2018"
+    summary: "The Cloudsdale Wonderbolts won over the Cleveland Steamers, 115.72 to 111.96."
+    teams:
+      - name: "Cloudsdale Wonderbolts"
+        image: "assets/images/wonderbolts.webp"
+        rank: "🥇"
+      - name: "Cleveland Steamers"
+        image: "assets/images/steamers.webp"
+        rank: "🥈"
+      - name: "Jerusalem Jewsorcery"
+        image: "assets/images/jewsorcery.webp"
+        rank: "🥉"
+      - name: "New York Pitbulls"
+        image: "assets/images/pitbulls.webp"
+        rank: "4"
+      - name: "New York Empire"
+        image: "assets/images/empire.webp"
+        rank: "5"
+      - name: "New York Huskies"
+        image: "assets/images/huskies.webp"
+        rank: "6"
+      - name: "Smoking Bullets"
+        image: "assets/images/smoking-bullets.webp"
+        rank: "7"
+      - name: "Tilkravens"
+        image: "assets/images/tilkravens.webp"
+        rank: "8"
+
+  - type: record
+    title: "Sanchez"
+    date: "December 25, 2018"
+    summary: "The second Sanchez is awarded to the Tilkravens for going from first to worst in one year. The last Sanchez was awarded in 2016."
+
+  - type: standings
+    title: "Standings"
+    date: "December 11, 2018"
+    summary: "The Cloudsdale Wonderbolts finished with a 12-2 record, ending the season with a 6 week winning streak."
+    teams:
+      - name: "Cloudsdale Wonderbolts"
+        image: "assets/images/wonderbolts.webp"
+        rank: "1"
+      - name: "Cleveland Steamers"
+        image: "assets/images/steamers.webp"
+        rank: "2"
+      - name: "New York Pitbulls"
+        image: "assets/images/pitbulls.webp"
+        rank: "3"
+      - name: "Jerusalem Jewsorcery"
+        image: "assets/images/jewsorcery.webp"
+        rank: "4"
+      - name: "Smoking Bullets"
+        image: "assets/images/smoking-bullets.webp"
+        rank: "5"
+      - name: "Tilkravens"
+        image: "assets/images/tilkravens.webp"
+        rank: "6"
+      - name: "New York Huskies"
+        image: "assets/images/huskies.webp"
+        rank: "7"
+      - name: "New York Empire"
+        image: "assets/images/empire.webp"
+        rank: "8"
+
+  - type: draft
+    date: "August 26, 2018"
+    summary: "The 2018 draft took place with the Cleveland Steamers picking first. Le'Veon Bell was chosen as the first pick."
+    link: "https://fantasy.nfl.com/league/2020807/history/2018/draftresults"
+
+  - type: transaction
+    action: added
+    team: "Cleveland Steamers"
+    owner: "Chris"
+    date: "August 16, 2018"
+    image: "assets/images/steamers.webp"
+    summary: "Owner Chris signs the Steamers up for the Buttfumble league at the start of the 2018 season."
+
+  - type: transaction
+    action: removed
+    team: "Aztecian Atheists"
+    owner: "Mario"
+    date: "August 15, 2018"
+    image: "assets/images/atheists.webp"
+    summary: "Owner Mario retires the Atheists from the Buttfumble league at the start of the 2018 season."

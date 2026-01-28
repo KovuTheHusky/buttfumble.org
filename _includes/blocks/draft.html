@@ -1,0 +1,12 @@
+<div class="timeline-block">
+  <div class="icon bg-primary">
+    <i class="fas fa-stopwatch fa-inverse fa-fw"></i>
+  </div>
+  <div class="card col-10 col-lg-11 col-xl-5 border-primary bg-primary">
+    <div class="card-body">
+      <h2 class="card-title font-weight-bold text-white">Draft</h2>
+      <h3 class="timeline-date text-primary">{{ include.item.date }}</h3>
+      <p class="card-text text-light text-justify">{{ include.item.summary }}</p> {% if include.item.link %} <a class="btn btn-light" href="{{ include.item.link }}">View Results</a> {% endif %}
+    </div>
+  </div>
+</div>
