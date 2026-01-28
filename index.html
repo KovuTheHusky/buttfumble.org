@@ -19,6 +19,9 @@ layout: null
         {% include year_dropdown.html %}
       </div>
     </div>
+    <div class="container-fluid bg-primary py-1 text-white my-5">
+      {% include champions_tally.html %}
+    </div>
     {% assign seasons = site.data.seasons | sort %} {% for season_hash in
     seasons reversed %} {% assign season = season_hash[1] %} {% include
     timeline_header.html season=season %}
