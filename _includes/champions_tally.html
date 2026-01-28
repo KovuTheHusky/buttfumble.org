@@ -1,48 +1,51 @@
 <div class="text-center my-5">
-  <h2>Champions</h2>
-  {% comment %} --- DATA LOGIC START --- {% endcomment %} {% assign all_champs =
-  "" %} {% for season_hash in site.data.seasons %} {% assign season =
-  season_hash[1] %} {% if season.champion.team %} {% assign all_champs =
-  all_champs | append: season.champion.team | append: "|||" %} {% endif %} {%
-  endfor %} {% assign unique_teams = all_champs | split: "|||" | uniq %} {%
-  assign team_win_map = "" %} {% for team in unique_teams %} {% if team != "" %}
-  {% assign counter = 0 %} {% assign raw_array = all_champs | split: "|||" %} {%
-  for winner in raw_array %} {% if winner == team %} {% assign counter = counter
-  | plus: 1 %} {% endif %} {% endfor %} {% assign team_win_map = team_win_map |
-  append: counter | append: "::" | append: team | append: "|||" %} {% endif %}
-  {% endfor %} {% assign entries = team_win_map | split: "|||" %} {% comment %}
-  --- DATA LOGIC END --- {% endcomment %} {% for i in (1..10) reversed %} {%
-  assign teams_in_tier = "" %} {% for entry in entries %} {% assign parts =
-  entry | split: "::" %} {% assign wins = parts[0] | plus: 0 %} {% if wins == i
-  %} {% assign teams_in_tier = teams_in_tier | append: parts[1] | append: "|||"
-  %} {% endif %} {% endfor %} {% if teams_in_tier != "" %} {% assign tier_teams
-  = teams_in_tier | split: "|||" | sort %}
+  <h2 class="mb-3">Champions</h2>
 
-  <div class="mb-3">
-    <div class="mb-1">{% for x in (1..i) %} &#127942; {% endfor %}</div>
+  {% assign all_champs = "" %} {% for season_hash in site.data.seasons %} {%
+  assign season = season_hash[1] %} {% if season.champion.team %} {% assign
+  all_champs = all_champs | append: season.champion.team | append: "|||" %} {%
+  endif %} {% endfor %} {% assign unique_teams = all_champs | split: "|||" |
+  uniq %} {% assign team_win_map = "" %} {% for team in unique_teams %} {% if
+  team != "" %} {% assign counter = 0 %} {% assign raw_array = all_champs |
+  split: "|||" %} {% for winner in raw_array %} {% if winner == team %} {%
+  assign counter = counter | plus: 1 %} {% endif %} {% endfor %} {% assign
+  team_win_map = team_win_map | append: counter | append: "::" | append: team |
+  append: "|||" %} {% endif %} {% endfor %} {% assign entries = team_win_map |
+  split: "|||" %}
 
-    {% for team_name in tier_teams %} {% assign img_slug = team_name | slugify
-    %} {% assign img_path = "assets/images/" | append: img_slug | append:
-    ".webp" %}
+  <div class="row justify-content-center">
+    {% for i in (1..10) reversed %} {% assign teams_in_tier = "" %} {% for entry
+    in entries %} {% assign parts = entry | split: "::" %} {% assign wins =
+    parts[0] | plus: 0 %} {% if wins == i %} {% assign teams_in_tier =
+    teams_in_tier | append: parts[1] | append: "|||" %} {% endif %} {% endfor %}
+    {% if teams_in_tier != "" %} {% assign tier_teams = teams_in_tier | split:
+    "|||" | sort %}
 
-    <div class="d-flex justify-content-center align-items-center mb-2">
-      <img
-        src="{{ img_path | relative_url }}"
-        alt=""
-        class="rounded border"
-        style="
-          width: 40px;
-          aspect-ratio: 2/1;
-          object-fit: cover;
-          margin-right: 10px;
-        "
-        onerror="this.style.display = 'none'"
-      />
+    <div class="col-12 col-md-6 col-lg-4 mb-2">
+      <div class="mb-2">{% for x in (1..i) %} &#127942; {% endfor %}</div>
 
-      <span>{{ team_name }}</span>
+      {% for team_name in tier_teams %} {% assign img_slug = team_name | slugify
+      %} {% assign img_path = "assets/images/" | append: img_slug | append:
+      ".webp" %}
+
+      <div class="d-flex justify-content-center align-items-center mb-2">
+        <img
+          src="{{ img_path | relative_url }}"
+          alt=""
+          class="rounded border"
+          style="
+            width: 40px;
+            aspect-ratio: 2/1;
+            object-fit: cover;
+            margin-right: 10px;
+          "
+          onerror="this.style.display = 'none'"
+        />
+        <span>{{ team_name }}</span>
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
-  </div>
 
-  {% endif %} {% endfor %}
+    {% endif %} {% endfor %}
+  </div>
 </div>
