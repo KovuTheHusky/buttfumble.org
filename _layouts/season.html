@@ -19,8 +19,7 @@ layout: null
         {% include year_dropdown.html %}
       </div>
     </div>
-    {% assign seasons = site.data.seasons | sort %} {% for season_hash in
-    seasons reversed %} {% assign season = season_hash[1] %} {% include
+    {% assign season = site.data.seasons[page.year_string] %} {% include
     timeline_header.html season=season %}
     <section class="timeline container my-5">
       <div class="bone bg-primary rounded"></div>
@@ -31,7 +30,6 @@ layout: null
       item=item %} {% else %} {% include blocks/record.html item=item %} {%
       endif %} {% endfor %}
     </section>
-    {% endfor %}
     <small style="display: block; text-align: center; padding-bottom: 3rem"
       >😵 🍑 🏈</small
     >

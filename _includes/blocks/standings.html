@@ -19,7 +19,9 @@
       <li
         class="list-group-item d-flex justify-content-between align-items-center bg-primary text-white"
       >
-        <div><img src="{{ team.image }}" alt="" /> {{ team.name }}</div>
+        <div>
+          <img src="{{ team.image | relative_url }}" alt="" /> {{ team.name }}
+        </div>
         {% if team.rank contains "1" or team.rank contains "2" or team.rank
         contains "3" %} <span class="medal">{{ team.rank }}</span> {% else %}
         <span>{{ team.rank }}</span> {% endif %}
